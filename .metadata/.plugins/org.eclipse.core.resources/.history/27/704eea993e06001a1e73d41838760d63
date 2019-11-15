@@ -1,0 +1,50 @@
+class Employee {
+
+	String name;
+	String work;
+	double salary;
+	double totalMoney;
+	boolean leftJob;
+//	private int numberOfWorkers;
+
+	public String getWork() {
+		return work;
+	}
+	public void setWork(String work) {
+		this.work = work;
+	}
+	public boolean leftJob () {
+//		numberOfWorkers--;
+		return leftJob = true;
+	}
+	void getNewJob (String work, double salary) {
+//		numberOfWorkers++;
+		totalMoney = totalMoney + salary;
+		System.out.println ("New " + work + " is hired. Their salary is " + totalMoney);
+	}
+	void receiveSalary(double salary) {
+		if (!leftJob) {
+			totalMoney = totalMoney + salary;
+			System.out.println(work + " has received salary: " + salary + " Total money received: " + totalMoney);
+		} else {
+			System.out.println("You have left the job, no salary for you!");
+		}
+	}
+
+public static class HWFactory3 {
+
+	public static void main(String[] args) {
+		Employee employee1 = new Employee ();
+		employee1.getNewJob("Electrician", 500);
+		employee1.receiveSalary(750.20);
+		employee1.receiveSalary(900);
+		employee1.leftJob();
+		employee1.receiveSalary(600);
+		Employee employee2 = new Employee ();
+		employee2.getNewJob("Admin", 1500);
+		employee2.receiveSalary(6000);
+		employee2.leftJob();
+		employee2.receiveSalary(800);
+	}
+}
+}

@@ -1,0 +1,24 @@
+package com.example;
+
+public class Welcome {
+
+	public static void main(String[] args) {
+		greetingMe1();
+		greetingNeighbor2();
+	
+
+	}
+
+	private static void greetingMe1(){
+		System.out.println("Welcome Awesome");
+		System.out.println("Welcome Awesome");
+		System.out.println("Welcome Awesome");
+	}
+	
+	private static void greetingNeighbor2(){
+		System.out.println("Welcome Cool");
+		System.out.println("Welcome Cool");
+		System.out.println("Welcome Cool");
+	}
+	
+}

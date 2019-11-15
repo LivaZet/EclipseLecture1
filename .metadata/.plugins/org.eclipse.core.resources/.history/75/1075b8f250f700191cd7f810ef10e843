@@ -1,0 +1,17 @@
+package com.example;
+
+public class Welcome {
+
+	public static void main1(String[] args) {
+		System.out.println("Welcome students");
+	}
+
+	public static void main2(String[] args) {
+		System.out.println("Welcome students");
+	}
+
+	public static void main3(String[] args) {
+		System.out.println("Welcome students");
+	}
+
+}

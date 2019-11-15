@@ -1,0 +1,22 @@
+
+/*Create a class Book, which:
+◦ has fields: author, pages, title.
+◦ has constructor which defines all fields
+◦ has constructor which allows to define title, but author and pages are set to
+default
+◦ has constructor which reuses another one*/
+
+class
+
+
+public class TaskConstructor {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

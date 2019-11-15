@@ -1,0 +1,53 @@
+
+/*Create a class Book, which:
+◦ has fields: author, pages, title.
+◦ has constructor which defines all fields
+◦ has constructor which allows to define title, but author and pages are set to
+default
+◦ has constructor which reuses another one*/
+
+class Book {
+	private String author;
+	private int pages;
+	private String title;
+
+	public Book(String author, String title, int pages) {
+		this.author = author;
+		this.pages = pages;
+		this.title = title;
+		System.out.println("This book is good");
+	}
+	public Book(String title) {
+		this("J.K. Rowling", title, 600);
+	}
+	public String getAuthor() {
+		return author;
+	}
+	public void setAuthor(String author) {
+		this.author = author;
+	}
+	public String getTitle() {
+		return author;
+	}
+	public void getTitle(String title) {
+		this.title = title;
+	}
+	
+	void getBook (String author, String title, int pages){
+		System.out.println("Author: " + author + " title: " + title + " pages: " + pages);
+	}
+	
+	public String toString() {
+		return "Author: " + author + " title: " + title + " pages: " + pages;
+	}
+}
+
+public class TaskConstructor {
+
+	public static void  main(String[] args) {
+		
+		Book book1 = new Book ("Harry Potter1");
+		System.out.println(book1.toString());
+	}
+
+}

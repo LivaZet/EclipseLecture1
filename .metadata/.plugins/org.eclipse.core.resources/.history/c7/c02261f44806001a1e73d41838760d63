@@ -1,0 +1,21 @@
+/*Create a class DrivingRule which has:
+Instance variables: name and description
+Static variable: country equals to Latvia
+2 constant max speed in city/outside
+Create few instance of DrivingRule
+DrivingRule should counts total amount of rules which we have created*/
+
+class DrivingRule {
+	String name;
+	String description;
+	static String country = "Latvia";
+}
+
+public class StaticFinal {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
